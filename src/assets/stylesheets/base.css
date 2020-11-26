@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+}
+
+.light-font {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.thin-font {
+    font-family: "Raleway", "SystemUI", sans-serif;
+}
+
+.bold-weight {
+    font-weight: 600;
+}
+
+.light-text {
+    color: #777;;
+}
+
+.dark-text {
+    color: #3A3A3A;
+}
+
+.underline {
+    position: relative;
+}
+
+.underline:after {
+    content: '';
+    bottom: 0;
+    left: 0;
+    height: 1.5px;
+    top: 110%;
+    width: 0;
+    position: absolute;
+    background-color: #555;
+    transition: width 0.3s ease-in-out;
+}
+
+.underline:hover:after {
+    width: 100%;
+}
+
+.center-block {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.gap {
+    margin: 0 3%;
+}

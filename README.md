@@ -1,5 +1,7 @@
 # my-site
 
+So I decided to put some stuff together.
+
 ## Project setup
 ```
 npm install
